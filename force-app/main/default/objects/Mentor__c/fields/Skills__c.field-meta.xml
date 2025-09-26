@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skills__c</fullName>
+    <label>Skills</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sales Force</fullName>
+                <default>false</default>
+                <label>Sales Force</label>
+            </value>
+            <value>
+                <fullName>Service Now</fullName>
+                <default>false</default>
+                <label>Service Now</label>
+            </value>
+            <value>
+                <fullName>AWS</fullName>
+                <default>false</default>
+                <label>AWS</label>
+            </value>
+            <value>
+                <fullName>Full SAtck</fullName>
+                <default>false</default>
+                <label>Full SAtck</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>
